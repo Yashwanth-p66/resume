@@ -5,11 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .share{
+       .share{
     position:relative;
     margin-top: 50vh;
     left:15%;
-    display:flex;
     align-items: center;
 }
 .share p{
@@ -45,6 +44,20 @@
                 0 0 120px orange,
                 0 0 140px  orange;
 }
+@media (max-width:450px){
+    .share a{
+        margin:20px;
+        display: flex;
+    }
+    .body{
+        position: fixed;
+    }
+    .share{
+        margin-left: 8vh;
+        justify-content: center;
+        margin-top: 200px;
+    }}
+
     </style>
 </head>
 <body style="background-color:black;">
