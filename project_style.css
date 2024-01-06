@@ -348,6 +348,7 @@ footer p {
   }
   header {
     background: transparent;
+    margin-top: -450px;
   }
   .navbar {
     position: absolute;
@@ -443,16 +444,14 @@ footer p {
   }
   header {
     display: flex;
+    height: auto;
+    margin-top: -450px;
   }
   .home-text {
     margin-left: 45px;
   }
   .home-text h1 {
     font-size: 30px;
-  }
-  header {
-    margin: auto;
-    height: auto;
   }
   .home-img {
     margin-top: -70px;
