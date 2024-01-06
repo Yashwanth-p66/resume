@@ -3,7 +3,7 @@ let navbar = document.querySelector(".navbar");
 menu.onclick = () => {
   menu.classList.toggle("bx-x");
   navbar.classList.toggle("open");
-  navbar.style.opacity="1";
+  navbar.style.opacity = "1";
 };
 const sr = ScrollReveal({
   distance: "40px",
